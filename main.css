@@ -1,0 +1,32 @@
+.menu-principal {
+    width: 100%;
+    background-color: #FFBCD1;
+    height: 100px;
+    padding: 15px;
+    
+}
+nav{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.header-2 {
+    text-align: center;
+    font-weight: 600;
+}
+
