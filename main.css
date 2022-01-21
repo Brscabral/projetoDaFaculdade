@@ -1,3 +1,6 @@
+body{
+    background:linear-gradient(#e0ffff,#ffb6c1);
+}
 .menu-principal {
     width: 100%;
     background-color: #FFBCD1;
@@ -28,5 +31,25 @@ main {
 .header-2 {
     text-align: center;
     font-weight: 600;
+
 }
+#colonia{
+    margin: 25px;
+}
+#metodologia{
+    margin:25px;
+}
+#missao{
+    margin:25px;
+}
+#filhos{
+    margin:25px;
+}
+#mochila{
+    margin: 25px;
+}
+#mochilatag{
+    margin: 25px;
+}
+
 
