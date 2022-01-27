@@ -70,9 +70,8 @@ form label::first-letter{
 section{
     position: relative;
     margin-left: 13%;
-
-    
 }
+
 .botao{
     text-transform: uppercase;
     font-size: medium;
