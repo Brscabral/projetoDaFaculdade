@@ -1,0 +1,98 @@
+body{
+    font-family: 'Chilanka', cursive;
+    background:linear-gradient(#e0ffff,#ffb6c1);
+}
+.imagem{
+    height: 130%;
+    width: 10%;
+    position: relative;
+    top: -15%;
+    margin-right: 2em;
+     
+}
+.menu-principal {
+    width: 100%;
+    background-color: #FFBCD1;
+    height: 100px;
+    padding: 15px;
+    
+}
+nav{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+    
+   
+}
+nav a{
+    text-transform: uppercase;
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s all;
+}
+nav li:hover{
+    cursor: pointer;
+}
+//*CSS DOS CONTATOS*//
+main{
+    margin-top: 5%;
+}
+
+form{
+    margin: 10% 3%;
+}
+form label{
+    display: block;
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+form label::first-letter{
+    text-transform: uppercase;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 5%;
+    padding: 5px 20px;
+    width: 40%;
+}
+.imagem2{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    margin-left: 40%;
+    top: 40%;
+}
+section{
+    position: relative;
+    margin-left: 13%;
+
+    
+}
+.botao{
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Chilanka', cursive;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left:20px ;
+    border-radius: 10px;
+    border:none;
+    background-color: beige;
+    transition-duration: 1s;
+}
+.botao:hover{
+    cursor: pointer;
+    background-color: hotpink;
+}
+footer p{
+    font-size: bold;
+    margin: 5px;
+}
+footer{
+    margin: 40px;
+}
