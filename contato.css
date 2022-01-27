@@ -1,6 +1,7 @@
 body{
     font-family: 'Chilanka', cursive;
     background:linear-gradient(#e0ffff,#ffb6c1);
+    width: 100vw;
 }
 .imagem{
     height: 130%;
@@ -67,10 +68,6 @@ form label::first-letter{
     margin-left: 40%;
     top: 40%;
 }
-section{
-    position: relative;
-    margin-left: 13%;
-}
 
 .botao{
     text-transform: uppercase;
@@ -88,10 +85,47 @@ section{
     cursor: pointer;
     background-color: hotpink;
 }
+
+h1{
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+table{
+    border: 1px solid darkslategray;
+    width: 400px;   
+}
+td{
+    border: 1px solid darkslategray;
+    padding: 5px;
+}
+td::first-letter{
+    text-transform: uppercase;
+} 
+.tabela{
+    position:relative;
+    right:60px;
+    margin: 4%;
+   padding: 50px;
+   top: -90px;
+    
+}
+
+.imagem3{
+ position: absolute;
+ width: 20%;
+ left: 500px;
+ top: 800px;
+}
+.caixa{
+    position: relative;
+    top: -1000px;
+}
+
 footer p{
     font-size: bold;
     margin: 5px;
 }
 footer{
-    margin: 40px;
+    
 }
