@@ -1,14 +1,17 @@
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
 body{
     font-family: 'Chilanka', cursive;
     background:linear-gradient(#e0ffff,#ffb6c1);
-    width: 100vw;
+    
 }
 .imagem{
-    height: 130%;
-    width: 10%;
+    height: 131%;
+    width: 13%;
     position: relative;
-    top: -15%;
-    margin-right: 2em;
+    transform: translate(-15%, -12%);
      
 }
 .menu-principal {
@@ -18,25 +21,26 @@ body{
     padding: 15px;
     
 }
-nav{
+.navegacao{
     position: absolute;
-    top: 50px;
-    left: 150px;
+    top: 9%;
+    left: 25%;
 }
-nav li{
+.navegacao li{
     display: inline;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 1em;
+    font-size: 1.34em;
     
    
 }
-nav a{
+.navegacao a{
     text-transform: uppercase;
     color: beige;
     font-weight: bold;
     text-decoration: none;
     transition: 1s all;
 }
-nav li:hover{
+.navegacao li:hover{
     cursor: pointer;
 }
 
@@ -112,20 +116,62 @@ td::first-letter{
 }
 
 .imagem3{
- position: absolute;
- width: 20%;
+ position: relative;
+ width: 50%;
  left: 500px;
  top: 800px;
 }
 .caixa{
-    position: relative;
-    top: -1000px;
+    width: 30%;
+    position: absolute;
+    top: 0;
 }
 
 footer p{
     font-size: bold;
     margin: 5px;
 }
-footer{
-    
+
+
+
+@media screen and (max-width: 450px){
+    .menu-principal{
+        width: 117%;
+    }
+    .imagem{
+        display: none;
+    }
+    .imagem2 {
+        position: absolute;
+    width: 72%;
+    height: 30%;
+    transform: translate(6%, -59%);
+    }
+    .imagem3{
+        position: absolute;
+        width: 124%;
+        transform: translate(-110%, -148%);
+    }
+    .tabela{
+     position: relative;
+    right: 0%;
+    margin: 4% 0 0 0;
+    padding: 14px;
+    top: -30px;
+    width: 100%;
+    }
+    .tabela table{
+        width: 70%;
+    }
+    .navegacao{
+        position: absolute;
+        top: 4%;
+        left: -3%;
+        font-size: 0.7em;
+    }
+    .navegacao li{
+        display: inline-block;
+        margin: 1em 0 0 3em;
+    }
+   
 }
