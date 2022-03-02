@@ -118,13 +118,13 @@ td::first-letter{
 .imagem3{
  position: relative;
  width: 50%;
- left: 500px;
- top: 800px;
+
 }
 .caixa{
-    width: 30%;
+    width: 35%;
     position: absolute;
     top: 0;
+    transform: translate(133%, 320%);
 }
 
 footer p{
@@ -135,6 +135,9 @@ footer p{
 
 
 @media screen and (max-width: 450px){
+    body{
+        background:linear-gradient(#e0ffff,#ffb6c1);
+    }
     .menu-principal{
         width: 117%;
     }
@@ -147,10 +150,10 @@ footer p{
     height: 30%;
     transform: translate(6%, -59%);
     }
-    .imagem3{
-        position: absolute;
-        width: 124%;
-        transform: translate(-110%, -148%);
+    .caixa{
+       position: relative;
+        width: 70%;
+        transform: translate(33%, -26%);
     }
     .tabela{
      position: relative;
@@ -172,6 +175,9 @@ footer p{
     .navegacao li{
         display: inline-block;
         margin: 1em 0 0 3em;
+    }
+    .rodape{
+        margin: 18% 0 0 0;
     }
    
 }
